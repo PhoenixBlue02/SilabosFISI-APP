@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocursos2"
+    tools:context=".cursos4software">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".cursos4software">
+
+        <Button
+            android:id="@+id/curso1_4"
+            android:layout_width="319dp"
+            android:layout_height="55dp"
+            android:text="Algoritmica 2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.076" />
+
+        <Button
+            android:id="@+id/curso2_4"
+            android:layout_width="319dp"
+            android:layout_height="55dp"
+            android:text="Contabilidad para la gestión"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.209" />
+
+        <Button
+            android:id="@+id/curso3_4"
+            android:layout_width="319dp"
+            android:layout_height="55dp"
+            android:text="Innovación, tecnología y emprendimiento"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.363" />
+
+        <Button
+            android:id="@+id/curso4_4"
+            android:layout_width="319dp"
+            android:layout_height="55dp"
+            android:text="Probabilidades"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/curso5_4"
+            android:layout_width="319dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="352dp"
+            android:text="Procesos de Software"
+            app:layout_constraintBottom_toTopOf="@+id/probar2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.581" />
+
+        <Button
+            android:id="@+id/curso6_4"
+            android:layout_width="319dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="424dp"
+            android:text="Sistemas Digitales"
+            app:layout_constraintBottom_toTopOf="@+id/probar2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.581" />
+
+        <Button
+            android:id="@+id/curso7_4"
+            android:layout_width="319dp"
+            android:layout_height="55dp"
+            android:text="Matemáticas Discretas"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.906" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

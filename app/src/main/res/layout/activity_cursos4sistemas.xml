@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocursos2"
+    tools:context=".cursos4sistemas">
+
+    <Button
+        android:id="@+id/curso1"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="56dp"
+        android:text="Algoritmica y Programación Orientada a Objetos"
+        app:layout_constraintBottom_toTopOf="@+id/curso2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/curso2"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:text="Marketing"
+        app:layout_constraintBottom_toTopOf="@+id/curso3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/curso3"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:text="Contabilidad General"
+        app:layout_constraintBottom_toTopOf="@+id/curso4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/curso4"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:text="Procesos de Negocios"
+        app:layout_constraintBottom_toTopOf="@+id/curso5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/curso5"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:text="Métodos Numéricos"
+        app:layout_constraintBottom_toTopOf="@+id/curso6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/curso6"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="28dp"
+        android:text="Probabilidades y muestreo"
+        app:layout_constraintBottom_toTopOf="@+id/curso7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/curso7"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="56dp"
+        android:text="Fisica Electrónica y Sistemas Digitales"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

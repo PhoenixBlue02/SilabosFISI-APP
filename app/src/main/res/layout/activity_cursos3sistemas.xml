@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocursos2"
+    tools:context=".cursos3sistemas">
+
+    <Button
+        android:id="@+id/probar5"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:text="Estadística"
+        app:layout_constraintBottom_toTopOf="@+id/probar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/probar6"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:text="Series y Ecuaciones Diferenciales"
+        app:layout_constraintBottom_toTopOf="@+id/probar7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/probar7"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="44dp"
+        android:text="Matemáticas Discretas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/probar4"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:text="Ingeniería Económica"
+        app:layout_constraintBottom_toTopOf="@+id/probar5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/probar"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:text="Programación y Fundamentos de Algorítmica"
+        app:layout_constraintBottom_toTopOf="@+id/probar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <Button
+        android:id="@+id/probar2"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:text="Teoría General de Sistemas"
+        app:layout_constraintBottom_toTopOf="@+id/probar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/probar3"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:text="Organización y Administración"
+        app:layout_constraintBottom_toTopOf="@+id/probar4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

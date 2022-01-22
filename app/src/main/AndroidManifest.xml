@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phoenixblue.fisisylabus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FISISYLABUS">
+        <activity
+            android:name=".cursos4software"
+            android:exported="false"
+             android:label="4ºCiclo - Software"/>
+        <activity
+            android:name=".cursos3software"
+            android:exported="false"
+            android:label="3ºCiclo - Software" />
+        <activity
+            android:name=".cursos4sistemas"
+            android:exported="false"
+            android:label="4ºCiclo - Sistemas" />
+        <activity
+            android:name=".mostrarpdf"
+            android:exported="false"
+            android:label="Sylabus"/>
+        <activity
+            android:name=".cursos3sistemas"
+            android:exported="false"
+            android:label="3ºCiclo - Sistemas" />
+        <activity
+            android:name=".software"
+            android:exported="false"
+            android:label="Software" />
+        <activity
+            android:name=".sistemas"
+            android:exported="false"
+            android:label="Sistemas" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
